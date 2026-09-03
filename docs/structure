@@ -1,0 +1,55 @@
+mi-framework/
+│
+├── index.html
+├── README.md
+├── LICENSE
+│
+├── css/
+│   ├── framework.css
+│   ├── reset.css
+│   ├── variables.css
+│   │
+│   ├── components/
+│   │   ├── buttons.css
+│   │   ├── cards.css
+│   │   ├── forms.css
+│   │   ├── navbar.css
+│   │   ├── modal.css
+│   │   └── alerts.css
+│   │
+│   ├── layout/
+│   │   ├── container.css
+│   │   ├── grid.css
+│   │   └── flex.css
+│   │
+│   └── utilities/
+│       ├── spacing.css
+│       ├── text.css
+│       └── display.css
+│
+├── js/
+│   ├── framework.js
+│   │
+│   ├── components/
+│   │   ├── modal.js
+│   │   ├── navbar.js
+│   │   └── accordion.js
+│   │
+│   └── utilities/
+│       └── animations.js
+│
+├── docs/
+│   ├── index.html
+│   ├── buttons.html
+│   ├── cards.html
+│   ├── forms.html
+│   └── grid.html
+│
+├── examples/
+│   ├── landing-page/
+│   ├── dashboard/
+│   └── portfolio/
+│
+└── dist/
+    ├── framework.css
+    └── framework.js
