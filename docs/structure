@@ -29,7 +29,7 @@ mi-framework/
 │
 ├── js/
 │   ├── framework.js
-│   │
+│   │ 
 │   ├── components/
 │   │   ├── modal.js
 │   │   ├── navbar.js

@@ -3,6 +3,7 @@
 @import url('/css/components/forms.css');
 @import url('/css/components/cards.css');
 @import url('/css/components/buttons.css');
+@import url('/css/components/header.css');
 
 /*Utilities*/
 @import url('/css/utilities/display.css');
@@ -13,3 +14,6 @@
 @import url('/css/layouts/container.css');
 @import url('/css/layouts/flex.css');
 @import url('/css/layouts/grid.css');
+
+@import url('/css/reset.css');
+@import url('/css/variables.css');

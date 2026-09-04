@@ -1,0 +1,25 @@
+:root {
+    --black-100: #000000;
+    --black-90:  #080808;
+    --black-80:  #0F0F0F;
+    --black-70:  #151515;
+    --black-60:  #1C1C1C;
+    --black-50:  #242424;
+    --black-40:  #2D2D2D;
+    --black-30:  #363636;
+    --black-20:  #404040;
+    --black-10:  #4A4A4A;
+
+    /*-------------------------*/
+
+    --white-100: #FFFFFF;
+    --white-90:  #FAFAFA;
+    --white-80:  #F8F8F8;
+    --white-70:  #F5F5F5;
+    --white-60:  #F0F0F0;
+    --white-50:  #EBEBEB;
+    --white-40:  #E5E5E5;
+    --white-30:  #DEDEDE;
+    --white-20:  #D6D6D6;
+    --white-10:  #CCCCCC;
+}
