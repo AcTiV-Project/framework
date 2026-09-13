@@ -1,0 +1,25 @@
+.banner-statistics{
+    background-color: var(--black-60);
+}
+.banner__item{
+    width: calc(100%/4);
+    padding: 55px;
+    position: relative;
+    color: var(--sky-600);
+}
+.banner__item h1{
+    font-weight: 900;
+}
+.banner__item::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100px;
+    background-color: var(--sky-600);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner__item:last-child::after {
+    display: none;
+}

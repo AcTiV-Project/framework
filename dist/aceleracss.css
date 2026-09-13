@@ -4,6 +4,7 @@
 @import url('/css/components/cards.css');
 @import url('/css/components/buttons.css');
 @import url('/css/components/header.css');
+@import url('/css/components/banners.css');
 
 /*Utilities*/
 @import url('/css/utilities/display.css');
@@ -17,3 +18,4 @@
 
 @import url('/css/reset.css');
 @import url('/css/variables.css');
+@import url('/css/typographic.css');
