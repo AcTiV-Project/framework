@@ -10,6 +10,7 @@
 @import url('/css/utilities/display.css');
 @import url('/css/utilities/spacing.css');
 @import url('/css/utilities/text.css');
+@import url('/css/utilities/color.css');
 
 /*Layouts*/
 @import url('/css/layouts/container.css');

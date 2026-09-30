@@ -1,11 +1,11 @@
 .banner-statistics{
-    background-color: var(--black-60);
+    background-color: var(--color-background);
 }
 .banner__item{
     width: calc(100%/4);
     padding: 55px;
     position: relative;
-    color: var(--sky-600);
+    color: var(--color-primary);
 }
 .banner__item h1{
     font-weight: 900;
@@ -15,7 +15,7 @@
     position: absolute;
     width: 3px;
     height: 100px;
-    background-color: var(--sky-600);
+    background-color: var(--color-primary-hover);
     right: 0;
     top: 50%;
     transform: translateY(-50%);

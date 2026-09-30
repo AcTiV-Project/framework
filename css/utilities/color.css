@@ -1,0 +1,20 @@
+/* colors.css */
+
+.color-blue {
+    --color-primary: #0ea5e9;
+    --color-primary-hover: #0284c7;
+    --color-background: #e0f2fe;
+}
+
+.color-green {
+    --color-primary: #22c55e;
+    --color-primary-hover: #16a34a;
+    --color-background: #dcfce7;
+}
+
+.color-custom {
+    --color-primary: #ff6600;
+    --color-primary-hover: #cc5200;
+    --color-background: #fff3e6;
+    --color-text: #663300;
+}
