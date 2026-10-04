@@ -1,13 +1,35 @@
-.f-center{
+.f-flex-center{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.f-rows{
+
+.f-flex-right{
     display: flex;
-    flex-flow: row;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
-.f-column{
+
+.f-flex-column{
     display: flex;
     flex-direction: column;
+    gap: 30px;
+}
+
+.f-flex-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+
+.f-flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.f-flex-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
 }
