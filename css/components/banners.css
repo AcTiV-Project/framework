@@ -2,7 +2,7 @@
     background-color: var(--color-background);
 }
 .banner__item{
-    width: calc(100%/4);
+    width: calc(100%/4); 
     padding: 55px;
     position: relative;
     color: var(--color-primary);
