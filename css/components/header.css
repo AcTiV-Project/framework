@@ -72,18 +72,18 @@
 
 
 
-.header{
+.hero{
     height: 100vh;
     background-color: var(--sky-50);
 }
-.header__article{
+.hero__article{
     width: 50%;
     text-align: center;
 }
-.header__text{
+.hero__text{
     line-height: 1.7;
 }
-.header__btn{
+.hero__btn{
     padding: 15px 50px 15px;
     border-radius: 12px;
     text-decoration: none;
@@ -92,6 +92,6 @@
     transition: transform ease 0.3s;
 }
 
-.header__btn:hover{
+.hero__btn:hover{
     transform: scale(.95);
 }
