@@ -3,20 +3,17 @@
     min-height: 400px;
     padding: clamp(3rem, 8vw, 6rem) 1.5rem;
 }
-.hero__article{
+.hero__article{ 
     width: min(100%, 760px);
-    color: var(--color-primary-hover);
 }
 .hero__subtitle {
     font-size: clamp(1rem, 1.5vw, 1.5rem);
-    color: var(--color-primary);
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 .hero__title {
     font-size: clamp(2rem, 5vw, 3.5rem);
-    color: var(--color-primary-hover);
     line-height: 1.1;
 }
 
@@ -71,4 +68,30 @@
 
 .hero__article{
     text-align: center;
+}
+
+
+
+.header{
+    height: 100vh;
+    background-color: var(--sky-50);
+}
+.header__article{
+    width: 50%;
+    text-align: center;
+}
+.header__text{
+    line-height: 1.7;
+}
+.header__btn{
+    padding: 15px 50px 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-text);
+    background-color: var(--sky-600);
+    transition: transform ease 0.3s;
+}
+
+.header__btn:hover{
+    transform: scale(.95);
 }

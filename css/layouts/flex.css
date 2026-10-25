@@ -6,7 +6,7 @@
 
 .f-flex-right{
     display: flex; 
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-end;
 }
 
@@ -15,7 +15,7 @@
     flex-direction: column;
     gap: 20px;
 }
-
+ 
 .f-flex-column-reverse{
     display: flex;
     flex-direction: column-reverse;
@@ -32,4 +32,22 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 30px;
+}
+
+.f-flex-center-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.f-flex-center-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

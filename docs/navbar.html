@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/aceleracss.css">
+    <title>MENU</title>
+</head>
+<body>
+    <nav class="nav nav--dropdown f-flex-right color-dark" aria-label="Navegación principal">
+        <button class="nav__hamburger"
+                type="button"
+                aria-label="Abrir menú"
+                aria-controls="nav-menu"
+                aria-expanded="false">
+            <span class="line" aria-hidden="true"></span>
+            <span class="line" aria-hidden="true"></span>
+            <span class="line" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav__menu f-flex-center" id="nav-menu">
+            <ul class="nav__list f-flex-row">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script type="module" src="../js/components/navbar.js"></script>
+</body>
+</html>

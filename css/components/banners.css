@@ -1,25 +1,52 @@
-.banner-statistics{
-    background-color: var(--color-background);
+.banners{
+    width: 90%;
+    padding: 30px;
+    border-radius: 7px;
+    border: 1px solid var(--color-background);
+    background-color: var(--black-40);
+    margin: 10px;
 }
-.banner__item{
-    width: calc(100%/4); 
-    padding: 55px;
-    position: relative;
-    color: var(--color-primary);
+
+.banners__subtitle{
+    color: var(--color-text);
+
+    font-size: clamp(1rem, 0.5vw, 1.125rem);
+    line-height: 1.6;
+    font-weight: 400;
 }
-.banner__item h1{
-    font-weight: 900;
+.banners__title{
+    color: var(--color-text);
+
+    font-size: clamp(2rem, 3.2vw, 3rem);
+    line-height: 1.1;
+    font-weight: 700;
 }
-.banner__item::after{
-    content: '';
-    position: absolute;
-    width: 3px;
-    height: 100px;
-    background-color: var(--color-primary-hover);
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+.banners__text{
+    color: var(--color-text);
+
+    font-size: clamp(1rem, 1.2vw, 1.125rem);
+    line-height: 1.6;
+    font-weight: 400;
 }
-.banner__item:last-child::after {
-    display: none;
+.banners__content{
+    width: 70%;
+}
+.banners__btn{
+    padding: 10px 40px 10px;
+    background-color: var(--white-80);
+    text-decoration: none;
+    transition: transform, ease 0.2s;
+    color: var(--black-70);
+}
+.banners__btn:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px){
+    .banners--01{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
 }
