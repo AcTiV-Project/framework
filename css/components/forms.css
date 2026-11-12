@@ -1,19 +1,19 @@
-.login{
+.login.form--1 {
     height: 100vh;
 }
-.login__form{
+.form--1 .login__form{
     width: 40%;
     background-color: var(--white-70);
     padding: 20px;
     border-radius: 10px;
 } 
-.login__form input{
+.form--1 .login__form input{
     padding: 10px;
     border-style: none;
     border-radius: 5px;
     border: 1px solid var(--white-10);
 }
-input[type="submit"] {
+.form--1 input[type="submit"] {
     width: 100%;
     background-color: var(--color-primary);
     cursor: pointer;
