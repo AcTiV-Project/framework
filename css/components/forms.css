@@ -1,3 +1,5 @@
+/*<-------form--1-------->*/
+
 .login.form--1 {
     height: 100vh;
 }
@@ -14,6 +16,30 @@
     border: 1px solid var(--white-10);
 }
 .form--1 input[type="submit"] {
+    width: 100%;
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+
+/*<-------form--2-------->*/
+
+.login.form--2 {
+    height: 100vh;
+}
+.form--2 .login__form{
+    width: 40%;
+    background-color: var(--white-70);
+    padding: 20px;
+    border-radius: 10px;
+} 
+.form--2 .login__form input{
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    border: 1px solid var(--white-10);
+}
+.form--2 input[type="submit"] {
     width: 100%;
     background-color: var(--color-primary);
     cursor: pointer;
