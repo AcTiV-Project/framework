@@ -1,6 +1,6 @@
-const nav = document.querySelector('.nav--dropdown');
+const navs = document.querySelectorAll('.nav--dropdown');
 
-if (nav) {
+navs.forEach((nav) => {
     const button = nav.querySelector('.nav__hamburger');
     const menu = nav.querySelector('.nav__menu');
 
@@ -12,4 +12,4 @@ if (nav) {
             button.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
         });
     }
-}
+});

@@ -7,26 +7,34 @@
     <title>MENU</title>
 </head>
 <body>
-    <nav class="nav nav--dropdown f-flex-right color-dark" aria-label="Navegación principal">
-        <button class="nav__hamburger"
-                type="button"
-                aria-label="Abrir menú"
-                aria-controls="nav-menu"
-                aria-expanded="false">
-            <span class="line" aria-hidden="true"></span>
-            <span class="line" aria-hidden="true"></span>
-            <span class="line" aria-hidden="true"></span>
+    <nav class="nav nav--1 nav--dropdown" aria-label="Navegación principal">
+        <button class="nav__hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu-1">
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
-
-        <div class="nav__menu f-flex-center" id="nav-menu">
-            <ul class="nav__list f-flex-row">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
+        <ul class="nav__menu" id="nav-menu-1">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
     </nav>
+
+    <nav class="nav nav--2 nav--dropdown" aria-label="Navegación secundaria">
+        <button class="nav__hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu-2">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu-2">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
     <script type="module" src="../js/components/navbar.js"></script>
 </body>
 </html>
