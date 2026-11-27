@@ -44,3 +44,323 @@
     background-color: var(--color-primary);
     cursor: pointer;
 }
+
+/*-----form--3------*/
+
+
+.login.form--3 {
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: clamp(16px, 4vw, 48px);
+    gap: 0;
+    background-color: var(--white-70);
+}
+
+.form--3 .form__myform,
+.form--3 .form__article {
+    min-width: 0;
+    min-height: 560px;
+}
+
+.form--3 .form__myform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(24px, 5vw, 64px);
+    border-radius: 18px 0 0 18px;
+    background-color: #fff;
+}
+
+.form--3 .login__form {
+    width: min(100%, 380px);
+    gap: 12px;
+}
+
+.form--3 .login__form label {
+    color: #334155;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form--3 .login__form input:not([type="submit"]) {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #0f172a;
+    font: inherit;
+    transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.form--3 .login__form input:not([type="submit"]):focus-visible {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 20%, transparent);
+}
+
+.form--3 .login__form input[type="submit"] {
+    margin-top: 8px;
+    padding: 13px 16px;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.form--3 .login__form input[type="submit"]:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-1px);
+}
+
+.form--3 .login__form a {
+    margin-top: 8px;
+    color: #0369a1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form--3 .login__form a:hover {
+    text-decoration: underline;
+}
+
+.form--3 .form__article {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: clamp(28px, 5vw, 64px);
+    border-radius: 0 18px 18px 0;
+    background: linear-gradient(145deg, #0284c7, #1e3a8a);
+    color: #fff;
+}
+
+.form--3 .form__article::after {
+    position: absolute;
+    right: -90px;
+    bottom: -130px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255 255 255 / 18%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 35px rgb(255 255 255 / 7%), 0 0 0 70px rgb(255 255 255 / 5%);
+    content: "";
+    pointer-events: none;
+}
+
+.form--3 .form__article article {
+    position: relative;
+    z-index: 1;
+    max-width: 520px;
+}
+
+.form--3 .form__article h1 {
+    margin: 0 0 20px;
+    font-size: clamp(2rem, 3.5vw, 3.25rem);
+    line-height: 1.1;
+}
+
+.form--3 .form__article h1 span {
+    display: block;
+}
+
+.form--3 .form__article p {
+    max-width: 42ch;
+    margin: 0;
+    color: rgb(255 255 255 / 82%);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 760px) {
+    .login.form--3 {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .form--3 .form__myform,
+    .form--3 .form__article {
+        min-height: auto;
+        border-radius: 14px;
+    }
+
+    .form--3 .form__myform {
+        padding: clamp(24px, 7vw, 40px);
+    }
+
+    .form--3 .form__article {
+        min-height: 280px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .form--3 .login__form input:not([type="submit"]),
+    .form--3 .login__form input[type="submit"] {
+        transition: none;
+    }
+}
+
+
+
+/*--------form--4-------------*/
+
+
+.login.form--4 {
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: clamp(16px, 4vw, 48px);
+    gap: 0;
+    background-color: var(--white-70);
+}
+
+.form--4 .form__myform,
+.form--4 .form__article {
+    min-width: 0;
+    min-height: 560px;
+}
+
+.form--4 .form__myform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(24px, 5vw, 64px);
+    border-radius: 18px 0 0 18px;
+    background-color: #fff;
+}
+
+.form--4 .login__form {
+    width: min(100%, 380px);
+    gap: 12px;
+}
+
+.form--4 .login__form label {
+    color: #334155;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form--4 .login__form input:not([type="submit"]) {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #0f172a;
+    font: inherit;
+    transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.form--4 .login__form input:not([type="submit"]):focus-visible {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 20%, transparent);
+}
+
+.form--4 .login__form input[type="submit"] {
+    margin-top: 8px;
+    padding: 13px 16px;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.form--4 .login__form input[type="submit"]:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-1px);
+}
+
+.form--4 .login__form a {
+    margin-top: 8px;
+    color: #0369a1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form--4 .login__form a:hover {
+    text-decoration: underline;
+}
+
+.form--4 .form__article {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: clamp(28px, 5vw, 64px);
+    border-radius: 0 18px 18px 0;
+    background: linear-gradient(145deg, #0284c7, #1e3a8a);
+    color: #fff;
+}
+
+.form--4 .form__article::after {
+    position: absolute;
+    right: -90px;
+    bottom: -130px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255 255 255 / 18%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 35px rgb(255 255 255 / 7%), 0 0 0 70px rgb(255 255 255 / 5%);
+    content: "";
+    pointer-events: none;
+}
+
+.form--4 .form__article article {
+    position: relative;
+    z-index: 1;
+    max-width: 520px;
+}
+
+.form--4 .form__article h1 {
+    margin: 0 0 20px;
+    font-size: clamp(2rem, 3.5vw, 3.25rem);
+    line-height: 1.1;
+}
+
+.form--4 .form__article h1 span {
+    display: block;
+}
+
+.form--4 .form__article p {
+    max-width: 42ch;
+    margin: 0;
+    color: rgb(255 255 255 / 82%);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 760px) {
+    .login.form--4 {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .form--4 .form__myform,
+    .form--4 .form__article {
+        min-height: auto;
+        border-radius: 14px;
+    }
+
+    .form--4 .form__myform {
+        padding: clamp(24px, 7vw, 40px);
+    }
+
+    .form--4 .form__article {
+        min-height: 280px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .form--4 .login__form input:not([type="submit"]),
+    .form--4 .login__form input[type="submit"] {
+        transition: none;
+    }
+}
